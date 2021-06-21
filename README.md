@@ -75,3 +75,29 @@ git remote -v
 # levando o commit para o repositorio remoto
 # git push -u <remoto> <branch>
 git push -u origin master
+
+# clonando repositorio
+git clone <endereco ssh ou http>
+
+# criar branch
+git checkout -b <nome_branch>
+
+# listar branchs de um repo
+git branch
+
+# mudar de branch
+git branch <branch_destino>
+
+# apagar uma branch
+git branch -D <nome_branch>
+
+# merge
+# cria um novo commit, nao eh legal deixa o historico poluido
+# operacao nao destrutiva, nao estraga o historico
+git merge <branch>
+
+# rebase
+# move o commit para frente (fast foward)
+# evita commit extra, nao suja o historico, porem perde a ordem cronologica
+
+
