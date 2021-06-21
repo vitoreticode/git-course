@@ -11,3 +11,6 @@ git status
 
 # Adicionar arquivo para ser trackeado
 git add README.md
+
+# criar um commit com msg
+git commit -m "Add README.me"
