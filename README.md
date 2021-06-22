@@ -102,5 +102,24 @@ git merge <branch>
 
 # git stash
 # guardar modificacoes que nao foram commitadas em uma area temporaria, para trabalhar depois
+git stash
 
+# voltar as modificacoes do stash
+git stash apply
 
+# listar as modificacoes em stash
+git stash list
+
+# limpar as modificacoes do stash
+git stash clear
+
+# criar alias no git
+# git config --global alias.<nome_alias> <comando>
+git config --global alias.s status
+
+# trabalhando com tags no git
+# criando uma tag
+git tag -a 1.0.0 -m "README.md finalizado"
+
+# subindo o commit junto com as tags
+git push origin master --tags
