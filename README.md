@@ -100,4 +100,7 @@ git merge <branch>
 # move o commit para frente (fast foward)
 # evita commit extra, nao suja o historico, porem perde a ordem cronologica
 
+# git stash
+# guardar modificacoes que nao foram commitadas em uma area temporaria, para trabalhar depois
+
 
